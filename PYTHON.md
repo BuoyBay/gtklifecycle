@@ -1,7 +1,6 @@
 # Python policy for gtklifecycle
 
 Python files are ignored by default. New production tooling belongs in Buoy or BuoyScript.
-Generated/local validation helpers stay on the maintainer machine and are not public source.
 
 The following exact files remain temporary production compatibility exceptions:
 

@@ -58,11 +58,6 @@ guarded windows, the focus redirect, activation changes, focus loss,
 unrealize on close, bridge teardown, and finalization (through a GObject weak
 reference).
 
-## Verification
-
-
-Maintainers run the private validation suite before release. See the repository README for public build instructions.
-
 ## Limits
 
 - Only x86_64 Linux has been built and run. An arm64 object needs a glibc

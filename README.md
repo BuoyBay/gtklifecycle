@@ -1,6 +1,6 @@
-# Guard GTK window lifetimes in Buoy applications
+# A linked C guard for window, ListBox and focus lifetimes in the Linux GTK UI bridge
 
-This Linux C shim corrects lifecycle calls made by the Buoy 0.72 GTK UI bridge.
+This Linux C shim corrects lifecycle calls made by the 0.72 Linux GTK UI bridge.
 It retains native windows and ListBox cells until bridge teardown, redirects the
 focus-leave signal, and keeps closing one window from ending a multi-window app.
 
@@ -36,7 +36,5 @@ On your own machine, install Buoy and run:
 ```sh
 buoy ai init --both
 ```
-
-The generated agent files and editor settings stay local and are ignored by Git.
 
 [Contributing](CONTRIBUTING.md) · [License](LICENSE)
