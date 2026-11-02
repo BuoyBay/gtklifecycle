@@ -29,12 +29,4 @@ symbols fail explicitly. It is a targeted lifecycle workaround, not a general
 GTK compatibility layer. See the [guard reference](docs/API.md)
 for call ownership, native symbols, teardown and cross-build details.
 
-## Local Buoy setup
-
-On your own machine, install Buoy and run:
-
-```sh
-buoy ai init --both
-```
-
 [Contributing](CONTRIBUTING.md) · [License](LICENSE)
