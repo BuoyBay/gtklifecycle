@@ -1,4 +1,4 @@
-# C guard for GTK window, ListBox, and focus lifetimes
+# GTK window lifetime guard
 
 This Linux C shim corrects lifecycle calls made by the 0.72 Linux GTK UI bridge.
 It retains native windows and ListBox cells until bridge teardown, redirects the
